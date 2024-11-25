@@ -1,1 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+#excuse {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+.hint {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
