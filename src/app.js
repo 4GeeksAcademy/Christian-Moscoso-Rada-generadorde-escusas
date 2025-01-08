@@ -6,10 +6,21 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  let subjects = ["My dog", "My cat", "My Neighbor", "A Stranger"];
-  let actions = ["ate", "stole", "hid", "destroyed"];
-  let objects = ["my homework", "my keys", "my lunch", "my proyect"];
-  let times = ["yesterday", "this morning", "last night", "a few minutes ago"];
+  let subjects = ["A lonely", "A slow", "A two headed"];
+  let actions = [
+    "merchant kiched",
+    "jogger kicked",
+    "merchant threw",
+    "comedian burned",
+    "pinecone yelled"
+  ];
+  let objects = ["my car", "my sandwich", "at my sandwich", "my proyect"];
+  let times = [
+    "near the toilet",
+    "on the street",
+    "in my house",
+    "in front of the office"
+  ];
 
   const generateExcuse = () => {
     let randomSubject = Math.floor(Math.random() * subjects.length);
